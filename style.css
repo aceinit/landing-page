@@ -24,7 +24,8 @@ body {
 
 .logo{
   display: flex;
-  flex: auto;
+  flex: 1;
+  align-items: center;
   font-weight: 900;
 }
 
