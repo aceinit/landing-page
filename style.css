@@ -48,13 +48,23 @@ body {
   display: flex;  
   margin: 0px 50px;
   align-items: center;
-  flex: 1;
 }
 
 .val-left {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  flex: 1;
+}
+
+.val-right{
+  display: flex;
+  flex: 1;
+}
+
+img {
+    width: 100%;
+    height: auto;
 }
 
 ul {
@@ -79,3 +89,4 @@ button {
     padding: 4px 20px;
     font-weight: 900;
     font-size: 15px;
+
