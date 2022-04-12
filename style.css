@@ -14,6 +14,7 @@ body {
   padding: 16px;
   font-size: 32px;
   font-weight: 900;
+  min-height: 72px;
 }
 
 .first {
@@ -36,17 +37,24 @@ body {
 }
 
 .value-prop {
-  height: 144px;
-  background: #FC79A1;
+  height: 300px;
+  background: #AC95F6;
   color: white;
   display: flex;
   padding: 16px;
 }
 
+.val-main{
+  display: flex;  
+  margin: 0px 50px;
+  align-items: center;
+  flex: 1;
+}
+
 .val-left {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
+  justify-content: center;
 }
 
 ul {
