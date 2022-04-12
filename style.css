@@ -64,7 +64,15 @@ body {
 
 .roadmap {
   display: flex;
+  padding: 16px;
+  justify-content: center;
+}
+
+.road-cont {
+  margin: 50px;
+  display: flex;    
   flex-direction: column;
+  align-items: center;
 }
 
 img {
