@@ -36,7 +36,11 @@ body {
 }
 
 .value-prop {
+  height: 144px;
+  background: #FC79A1;
+  color: white;
   display: flex;
+  padding: 16px;
 }
 
 .val-left {
