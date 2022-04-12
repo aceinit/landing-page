@@ -7,33 +7,35 @@ body {
 }
 
 .header {
-    height: 72px;
-    background: salmon;
-    color: white;
-    display: flex;
-    padding: 16px;
-    font-size: 32px;
-    font-weight: 900;
+  height: 72px;
+  background: salmon;
+  color: white;
+  display: flex;
+  padding: 16px;
+  font-size: 32px;
+  font-weight: 900;
 }
 
 .first {
-    display: flex;
-    gap: 16px;
-    flex: 1;
-  }
+  display: flex;
+  gap: 16px;
+  flex: 1;
+  align-items: center;
+}
 
 .logo{
   display: flex;
-  flex: 1;
-  align-items: center;
-  font-weight: 900;
+  flex: 1; 
 }
 
 .sub {
   display: flex;
   justify-content: flex-end;
-  align-items: center;
   font-weight: 300;
+}
+
+.value-prop {
+  display: flex;
 }
 
 ul {
