@@ -127,6 +127,21 @@ body {
   border-radius: 7px;
 }
 
+.socials {
+  display: flex;
+  padding: 50px;
+  color: rgb(255, 255, 255);
+  background-color: #AC95F6;
+}
+.socials-cont {
+  display: flex;
+  flex-direction: column;
+}
+
+.third {
+  font-size: 20px;
+}
+
 img {
     width: 100%;
     height: auto;
