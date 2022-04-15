@@ -142,6 +142,13 @@ body {
   font-size: 20px;
 }
 
+.footer {
+  display: flex;
+  justify-content: center;
+  color: white;
+  background-color: salmon;
+}
+
 img {
     width: 100%;
     height: auto;
