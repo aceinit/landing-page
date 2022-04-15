@@ -102,6 +102,31 @@ body {
   border: 3px solid salmon;
 }
 
+.signup {
+  display: flex;
+  justify-content: center;
+}
+
+.signup-msg {
+  display: flex;
+  margin: 50px;
+  background-color: salmon;
+  padding: 30px;
+  gap: 20px;
+  border-radius: 7px;
+  align-items: center;
+  color: white;
+}
+
+.btn-two {
+  width: 150px;
+  height: 40px;
+  color: salmon;
+  background-color: white;
+  border: none;
+  border-radius: 7px;
+}
+
 img {
     width: 100%;
     height: auto;
